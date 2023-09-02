@@ -25,6 +25,6 @@ def my_view(reques):
     return HttpResponse('Uma resposta qualquer')
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('ademe/', admin.site.urls),
     path('sobre/', my_view),
 ]
