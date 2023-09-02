@@ -21,7 +21,7 @@ from django.http import HttpResponse
 
 # http request <- http response
 
-def my_view(reques):
+def my_view(request):
     return HttpResponse('Uma resposta qualquer')
 
 urlpatterns = [
